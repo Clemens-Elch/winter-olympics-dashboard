@@ -1,16 +1,88 @@
-# React + Vite
+[# Winter Olympics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React practice project implementing a small dashboard for managing Winter Olympics athletes and events.
 
-Currently, two official plugins are available:
+This project was created as part of a **React review exercise** in the Web & Mobile Computing course.
+The assignment focuses on practicing fundamental React concepts such as components, props, state management, list rendering, routing, and API integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application includes the following functionality:
 
-## Expanding the ESLint configuration
+* Display athlete information using **React components and props**
+* Show a **medal counter** using `useState`
+* Render a list of **Olympic events**
+* Allow events to be **deleted dynamically**
+* Use **React Router** for navigation between pages
+* Fetch **country flags from a REST API** (Rest Countries API)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies
+
+* React
+* React Router
+* JavaScript (ES6+)
+* REST API
+* HTML / CSS
+
+---
+
+## Assignment
+
+This repository contains the implementation of the following exercise:
+
+**React Review – Winter Olympics Dashboard**
+
+The task includes:
+
+1. Creating athlete cards with props.
+2. Implementing a medal counter using React state.
+3. Rendering event lists dynamically with `map()`.
+4. Allowing event deletion.
+5. Adding navigation with **React Router**.
+6. Fetching country flags using the **REST Countries API**.
+
+The full assignment description is available here:
+
+📄 [View Assignment Sheet](./assignment.pdf)
+
+---
+
+## How to Run the Project
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm run dev
+```
+
+Then open the local server shown in the terminal (usually `http://localhost:5173`).
+
+---
+
+## Learning Goals
+
+This exercise was designed to practice:
+
+* React component structure
+* Passing data with props
+* Managing state with `useState`
+* Rendering lists dynamically
+* Client-side routing with React Router
+* Working with external APIs
+
+---
+
+## Author
+
+Course project by **Clemens Elch**.
+]()
