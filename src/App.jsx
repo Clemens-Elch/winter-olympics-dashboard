@@ -4,6 +4,7 @@ import OlympicsHeader from "./components/OlympicsHeader.jsx";
 import ReactQuestions from "./components/ReactQuestions.jsx";
 import AthleteCard from "./components/AthleteCard.jsx";
 import Events from "./components/Events.jsx";
+import Countries from "./components/Countries.jsx";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
                         <Route>
                             <Route path="/questions" element={<ReactQuestions/>}/>
                             <Route path="/events" element={<Events/>}/>
+                            <Route path="/countries" element={<Countries/>}/>
                         </Route>
                     </Routes>
                 </BrowserRouter>

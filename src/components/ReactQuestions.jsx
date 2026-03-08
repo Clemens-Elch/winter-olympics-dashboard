@@ -30,6 +30,13 @@ const ReactQuestions = () => {
                     It goes through each element of an array and returns a new value for each element.
                     In React, it is commonly used to display lists of items.
                 </p>
+                <h3>Explain how useEffect works</h3>
+                <p>
+                    useEffect is used to run side effects in React components, such as fetching data.
+                    It runs after the component renders and can be controlled with a dependency array.
+                </p>
+
+
 
             </div>
         </div>
