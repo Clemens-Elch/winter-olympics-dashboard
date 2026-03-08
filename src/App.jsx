@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import OlympicsHeader from "./components/OlympicsHeader.jsx";
 import ReactQuestions from "./components/ReactQuestions.jsx";
 import AthleteCard from "./components/AthleteCard.jsx";
+import Events from "./components/Events.jsx";
 
 function App() {
 
@@ -10,8 +11,10 @@ function App() {
         <div>
             <div>
                 <OlympicsHeader/>
+                <h2>Opening Ceremony</h2>
+
                 <AthleteCard
-                    name="Felix Gottwald"
+                    name="Johannes Lamparter"
                     country="Austria"
                     sport="Nordic Combined"
                 />
@@ -23,7 +26,7 @@ function App() {
                 />
 
                 <AthleteCard
-                    name="Christop Suman"
+                    name="David Komatz"
                     country="Austria"
                     sport="Biathlon"
                 />
@@ -32,7 +35,8 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route>
-                            <Route path="/dev" element={<ReactQuestions/>}/>
+                            <Route path="/questions" element={<ReactQuestions/>}/>
+                            <Route path="/events" element={<Events/>}/>
                         </Route>
                     </Routes>
                 </BrowserRouter>

@@ -24,6 +24,12 @@ const ReactQuestions = () => {
                     No, state variables cannot be updated directly. React would not re-render the component.
                     Instead, we must update the state using the setter function (for example setState).
                 </p>
+                <h3>Explain the syntax of Array.map</h3>
+                <p>
+                    The <code>map()</code> function creates a new array and does not change the original array.
+                    It goes through each element of an array and returns a new value for each element.
+                    In React, it is commonly used to display lists of items.
+                </p>
 
             </div>
         </div>
