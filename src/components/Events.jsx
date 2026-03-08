@@ -16,7 +16,7 @@ const Events = () => {
 
     return(
         <div>
-            <ul>
+            <ul style={{listStyle: "none"}}>
                 {events.map((event) => (
                 <li key ={event.id}>
                     <p style={{ fontWeight: "bold" }}>Date: {event.date}</p>
