@@ -1,4 +1,4 @@
-[# Winter Olympics Dashboard
+# Winter Olympics Dashboard
 
 React practice project implementing a small dashboard for managing Winter Olympics athletes and events.
 
@@ -85,4 +85,3 @@ This exercise was designed to practice:
 ## Author
 
 Course project by **Clemens Elch**.
-]()
