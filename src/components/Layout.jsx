@@ -7,12 +7,13 @@ const Layout = () => {
             <div>
                 <div style={{ padding: "10px" }}>
                     <nav style={{paddingLeft: "25px", display: "flex",  gap: "100px"}}>
+                        <Link to="/">Home</Link>
                         <Link to="/events">Events</Link>
                         <Link to="/countries">Country Flag Search</Link>
                         <Link to="/reactQuestions">Tasksheet React Questions</Link>
                     </nav>
+                    </div>
                 </div>
-            </div>
             <Outlet/>
         </div>
     );

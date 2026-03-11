@@ -31,6 +31,10 @@ const ReactQuestions = () => {
                     useEffect is used to run side effects in React components, such as fetching data.
                     It runs after the component renders and can be controlled with a dependency array.
                 </p>
+                <h2>Explain how a callback can be passed as a property</h2>
+                <p>A callback is a function that is passed as a prop to another component.
+                    The child component can then call that function to communicate back to the parent.
+                </p>
 
 
 
